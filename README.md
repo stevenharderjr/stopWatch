@@ -11,9 +11,11 @@ Uses closure to provide convenient references to the time of its instantiation a
 After ~30 seconds:
 
 `console.log(time.display.total); // '30.1 seconds'`
+
 `console.log(time.display.lap);    // '30.1 seconds'`
 
 After ~30 more seconds:
 
 `console.log(time.display.total); // '1.05 minutes'`
+
 `console.log(time.display.lap);    // '31 seconds'`
